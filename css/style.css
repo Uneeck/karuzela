@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+
+}
+
+#carousel {
+	margin: 0 auto;
+	height: 300px;
+	width: 400px;
+	border: 1px solid black;
+	overflow: hidden;
+	font-size: 30px;
+}
+
+ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 2000px;
+	text-align: center;
+}
+
+li {
+	width: 400px;
+	list-style: none;
+	float: left;
+}
+
+img {
+	height: 300px;
+	width: 400px;
+}
+
+.fa {
+	position: absolute;
+	color: white;
+	top: 150px;
+	display: block;
+	cursor: pointer;
+}
+
+.fa-arrow-left {
+	margin-left: 10px;
+}
+
+.fa-arrow-right {
+	margin-left: 360px;
+}
+
+.obrazki {
+	margin-left: -400px;
+}
